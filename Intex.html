@@ -1,53 +1,120 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <title>Petshop</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetShop</title>
+
+    <script src="https://kit.fontawesome.com/4a365b0f58.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <header>
-    
-            <nav> 
-                <p> Grandes oferta en comederos</p> 
-                <p> Espanol</p>     
-                <p> ARG$</p>  
+        <section class="cabecera-info">
+            Grandes ofertas en comederos
+            <select name="Menu regional" id="">
+                <option value="Español">Español</option>
+            </select>
+            <select name="" id="">
+                <option value="Moneda">$ARS</option>
+            </select>
+        </section>
+        <section class="cabecera-principal">
+            <img src="img/Logo-footer.png" alt="Imagen Logo">
+            <nav>
+                <ul>
+                    <li><img src="img/Huellita.png"> Categoria</li>
+                    <li><img src="img/Huellita.png">Pets</li>
+                    <li><img src="img/Huellita.png">Nosotros</li>
+                    <li><img src="img/Huellita.png">Contactanos</li>
+                </ul>
             </nav>
+        </section>
 
-        <nav> 
-            <H1>Front Cat dog</H1> >
-
-            <a href="">Categorias</a>
-            <a href="">Pets</a>
-            <a href="">Nosotros</a>
-            <a href="">Contactanos</a>
-             
-        </nav>
-
-        
     </header>
 
     <main>
-        <section> 
-            <img src="" alt="">
-            <h2>!Es un placer tenerte aqui!</h2>
-            <p>!Comederos en descuento!</p>
-            <p>COMEDEROS</p>
-    </section>
-    
-    <img src="" alt="">
-    <h2></h2>
-    <a href="">Comederos</a>
-    <a href="">accesorios</a>
-    <a href="">Comida</a>
-        <section> Productos destacados</section>
-        <section>productos en imagen</section>
-        <section> contactanos </section>
-    </main>
+        <section class="principal">
+            <p class="principal-titulo">
+                ¡Es un placer tenerte aqui!
+            </p>
+            <p>¡Comederos en Descuentos!</p>
+            <button class="principal-boton"> COMEDEROS</button>
+        </section>
 
+        <section>
+            <img src="img/Huellita.png" alt="img Huellita">
+            <p class="productos-destacados">Productos Destacados</p>
+            <span>Comederos - </span>
+            <span>Accesorios - </span>
+            <span>Comida</span>
+        </section>
+        <section>
+            <article>
+                <img src="img/churrasquito.jpg" alt="img currasquito">
+                <p>Juguete Churrasquito</p>
+                <p>$150</p>
+            </article>
+            <article>
+                <img src="img/comedero.jpg" alt="img comedero">
+                <p>Comedero para perro</p>
+                <p>$250</p>
+            </article>
+            <article>
+                <img src="img/Huesito.jpg" alt="img huesitos">
+                <p>Juguete Huesito</p>
+                <p>$650</p>
+            </article>
+        </section>
+        <section>
+            <p class="contactanos-texto">Contáctanos</p>
+            <form action="">
+                <input type="email" name="" id="" placeholder="Ingresa tu correo">
+                <input type="text" placeholder="Nombre y Apellido">
+                <input type="number" placeholder="Telefono">
+                <button>Resetear</button>
+                <button>Enviar</button>
+            </form>
+
+        </section>
+
+        <section class="suscribete">
+            <i class="fa-regular fa-envelope"></i>
+            Suscribete para mas novedades
+            <input type="text" placeholder="Ingresa tu correo electronico">
+            <button>Suscribirme</button>
+        </section>
+    </main>
     <footer>
-        <section>amarilla</section>
-        <section> cafe</section>
-        <section>negra</section>
+        <section class="info">
+            <div>
+                <img src="img/Icono direccion.png" alt="">
+                <p class="info-titulo">Localidad</p>
+                <p class="info-subtitulo">Calle - provincia</p>
+            </div>
+            <div>
+                <img src="img/Icono telefono.png" alt="">
+                <p class="info-titulo">Teléfono</p>
+                <p class="info-subtitulo">Número de teléfono</p>
+            </div>
+            <div>
+                <img src="img/Icono correo.png" alt="">
+                <p class="info-titulo">Correo Electrónico</p>
+                <p class="info-subtitulo">Dirección de correo</p>
+            </div>
+            <img src="img/Logo-footer.png" alt="logo">
+        </section>
+        <section class="derechos">
+            Todos los derechos reservados Front End
+        </section>
     </footer>
+
 </body>
+
 </html>

@@ -8,9 +8,11 @@ body{
 }
 .cabecera-principal{
     background-color: #F0A83E;
+    display:flex;
+    width: 100%;
 }
 .principal{
-    background-image: url('../imagenes/bowl-and-pet-daities-on-green-background\ 1.png');
+    background-image: url('../img/bowl-and-pet-daities-on-green-background\ 1.png');
     height: 409px;
 }
 .principal-titulo{
@@ -45,3 +47,17 @@ body{
 .derechos{
     background-color: #222222;
     }
+
+.logo-header {
+    width: 65%;
+    float:left;
+}
+
+ul.huellitas{
+    list-style-image: url('../img/Huellita2.png');
+}
+
+ul.huellitas li{
+    float:right;
+    list-style-position: inside;
+}

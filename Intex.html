@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>PetShop</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     
 </head>
 
@@ -20,13 +20,16 @@
             </select>
         </section>
         <section class="cabecera-principal">
-            <img src="img/Logo-footer.png" alt="Imagen Logo">
+            <div class="logo-header">
+                <img src="img/Logo-footer.png" alt="Imagen Logo">
+            </div>
+            
             <nav>
-                <ul>
-                    <li><img src="img/Huellita.png"> Categoria</li>
-                    <li><img src="img/Huellita.png">Pets</li>
-                    <li><img src="img/Huellita.png">Nosotros</li>
-                    <li><img src="img/Huellita.png">Contactanos</li>
+                <ul class="huellitas">
+                    <li><a href="">Categoria</a></li>
+                    <li><a href="">Pets</a></li>
+                    <li><a href="">Nosotros</a></li>
+                    <li><a href="">Contactanos</a></li>
                 </ul>
             </nav>
         </section>
@@ -79,8 +82,9 @@
         </section>
 
         <section class="suscribete">
-            <i class="fa-regular fa-envelope"></i>
-            Suscribete para mas novedades
+            
+            <img src="img/Group.png" alt=" carta">
+            <p>Suscribete para mas novedades</p>
             <input type="text" placeholder="Ingresa tu correo electronico">
             <button>Suscribirme</button>
         </section>
